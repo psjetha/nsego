@@ -12,7 +12,6 @@ func main() {
 	optionsLst := new(options.OptionChain)
 	optionsLst.Init("BANKNIFTY")
 
-	fmt.Println(optionsLst.Records.Data[0])
 	eqNiftygainer := new(equity.EquityGLStocks)
 	eqNiftygainer.Init(equity.NSE_GAINER_URL)
 	eqNiftylooser := new(equity.EquityGLStocks)
